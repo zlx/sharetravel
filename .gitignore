@@ -13,3 +13,14 @@
 # Ignore all logfiles and tempfiles.
 /log/*.log
 /tmp
+
+*.swp
+*.swn
+
+# Public Uploads
+public/system/*
+public/themes/*
+public/assets/
+public/sitemap/
+
+
