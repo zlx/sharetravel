@@ -47,6 +47,10 @@ Sharetravel::Application.routes.draw do
   #   end
 
   root :to => 'home#index'
+  resource :home do
+    get 'ammap_data' => 'home#ammap_data'
+    get 'ammap_setting' => 'home#ammap_setting'
+  end
 
   # See how all your routes lay out with "rake routes"
 
