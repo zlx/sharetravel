@@ -4,13 +4,14 @@
     <title>share-travel.net</title>
   </head>
 
-  <body onLoad="ammap.focus()">
+  <body onLoad="ammap.focus()" class="home">
     <%= javascript_include_tag 'application' %>
-    <div id="flashcontent" style=" margin: auto;width:1000px;height:600px; ">
+    <%= stylesheet_link_tag 'application' %>
+    <div id="flashcontent">
       <strong>You need to upgrade your Flash Player</strong>
     </div>
     <script type="text/javascript">
-      var so = new SWFObject("/ammap.swf", "ammap", "100%", "100%", "8", "#ffffff");
+      var so = new SWFObject("/ammap.swf", "ammap", "100%", "100%", "8", "#ddddee");
       so.addVariable("path", "/ammap/");
       so.addVariable("data_file", "/home/ammap_data.xml");
       so.addVariable("settings_file", "/home/ammap_setting.xml");
