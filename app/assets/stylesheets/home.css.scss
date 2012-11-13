@@ -2,14 +2,60 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.home {
-  background: url(/assets/bg.png) repeat;
-}
-
 #flashcontent {
   left: 100px;
   top: 100px;
   width: 600px;
   height: 400px;
   position: relative;
+}
+
+$main_width: 990px;
+
+body {
+  font: 12px/1.5 tahoma,arial,宋体b8b\4f53,sans-serif;
+  width: $main_width;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("/assets/bg.png") repeat;
+}
+
+a {
+  color: #007ED9;
+  text-decoration: none;
+  &:hover {
+    text-decoration:underline;
+    color:#f2710e;
+  }
+}
+
+.top-bar {
+  /*right: 10px;*/
+  /*top: 15px;*/
+  /*position: absolute;*/
+  position: relative;
+  width: 160px;
+  left: $main-width - 170;
+  .welcome, .name, .user-center {
+    margin-right: 5px;
+  }
+}
+
+.header {
+  width: $main_width;
+  margin-left: auto;
+  margin-right: auto;
+  .menu {
+    margin-left: 50px;
+    margin-top: -150px;
+    line-height: 10px;
+    position: relative;
+    font-size: 20px;
+  }
+}
+
+.content {
+  width: $main_width;
+  margin-left: auto;
+  margin-right: auto;
 }

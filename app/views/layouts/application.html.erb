@@ -1,14 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Sharetravel</title>
+    <title>Share-Travel.net</title>
     <%= stylesheet_link_tag    "application", :media => "all" %>
     <%= javascript_include_tag "application" %>
     <%= csrf_meta_tags %>
   </head>
   <body class="home">
+    <div class='top-bar'>
+      <span class='welcome'>欢迎回家</span>
+      <span class='name'><a href='#'>zlx_star</a></span>
+      <span class='user-center'><a href='#'>个人中心</a></span>
+    </div>
+    <div class='header'>
+      <span class='logo'><a href='/'><img src='/assets/logo.png' width='300px'></img></a></span>
+      <span class='menu'>
+        <span class='home'><a href='#'>首页</a></span>
+        <span class='cities'><a href='#'>目的地</a></span>
+        <span class='scenes'><a href='#'>游记</a></span>
+      </span>
+    </div>
+    <div class="content">
 
-    <%= yield %>
+      <%= yield %>
 
+    </div>
   </body>
 </html>

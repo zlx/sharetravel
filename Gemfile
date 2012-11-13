@@ -22,6 +22,7 @@ end
 
 gem 'jquery-rails'
 gem 'builder'
+gem 'haml'
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
@@ -36,3 +37,8 @@ gem 'capistrano'
 
 # To use debugger
 # gem 'debugger'
+group :development do
+  gem 'guard'
+  gem 'guard-livereload'
+  gem 'rb-inotify', :require => false
+end
