@@ -1,7 +1,3 @@
-// Place all the styles related to the home controller here.
-// They will automatically be included in application.css.
-// You can use Sass (SCSS) here: http://sass-lang.com/
-
 #flashcontent {
   left: 100px;
   top: 100px;
@@ -10,14 +6,16 @@
   position: relative;
 }
 
-$main_width: 990px;
+$main_width: 1020px;
 
 body {
   font: 12px/1.5 tahoma,arial,宋体b8b\4f53,sans-serif;
   width: $main_width;
-  margin-left: auto;
-  margin-right: auto;
   background: url("/assets/bg.png") repeat;
+  margin: {
+    left: auto;
+    right: auto;
+  }
 }
 
 a {
@@ -25,14 +23,10 @@ a {
   text-decoration: none;
   &:hover {
     text-decoration:underline;
-    color:#f2710e;
   }
 }
 
 .top-bar {
-  /*right: 10px;*/
-  /*top: 15px;*/
-  /*position: absolute;*/
   position: relative;
   width: 160px;
   left: $main-width - 170;
@@ -43,19 +37,86 @@ a {
 
 .header {
   width: $main_width;
-  margin-left: auto;
-  margin-right: auto;
+  height: 42px;
+  .logo a{
+    float: left;
+  }
   .menu {
-    margin-left: 50px;
-    margin-top: -150px;
-    line-height: 10px;
-    position: relative;
     font-size: 20px;
+    padding-top: 4px;
+    line-height: 40px;
+    .home, .targets, .scenes {
+      margin-left: 20px;
+    }
   }
 }
 
 .content {
   width: $main_width;
-  margin-left: auto;
-  margin-right: auto;
+  min-height: 1000px;
+  background-color: #ffffff;
+  margin-top: 10px;
+}
+
+.breadcrumb {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.cities {
+  margin-top: 10px;
+  margin-left: 20px;
+  background-color: #f6f6f6;
+  .name-area {
+    padding-top: 10px;
+    padding-left: 20px;
+    width: $main-width - 50px;
+    .name {
+      font-size: 40px;
+      margin-right: 10px;
+    }
+    .star {
+      margin-right: 10px;
+      font-size: 40px;
+      line-height: 30px;
+    }
+    .add-plan, .want-go, .have-go {
+      margin-right: 10px;
+      height: 25px;
+      background-color: #ffda00;
+      &:hover {
+        background-color: #ffffff;
+      }
+    }
+    .weather {
+      padding-top: 20px;
+      float: right;
+      font-size: 30px;
+    }
+  }
+  .desc-area {
+    padding-left: 20px;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  .pic-area {
+    font-size: 40px;
+    height: 500px;
+    background-color: red;
+  }
+  nav {
+    margin-top: 5px;
+    background-color: #61bfdf;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 8px;
+    font-size: 15px;
+    .area1, .area2, .area3, .area4 {
+      margin-right: 10px;
+      margin-left: 10px;
+    }
+    span {
+      margin-right: 5px;
+    }
+  }
 }

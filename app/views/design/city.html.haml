@@ -1,3 +1,54 @@
-%h1
-  %p#city_name
-    = "City Name"
+.breadcrumb
+  %span
+    %a= "分享旅游"
+  >
+  %span
+    %a= "目的地"
+  >
+  %span
+    %a= "福建"
+  >
+  %span= "厦门"
+.cities
+  .name-area
+    %span.name= "厦门"
+    %span.star= "*****"
+    %button.add-plan= "加入计划"
+    %button.want-go= "想去(2709)"
+    %button.have-go= "去过(8155)"
+    %span.weather= "天气pic"
+  .desc-area
+    = "来到这儿才知道什么是好生活：悠闲，手工，小吃——用一种小资的情怀来邂逅一只猫狗。"
+  .pic-area
+    = "pics"
+  %nav
+    %span.area1
+      %a= "概述"
+    |
+    %span.area2
+      %span
+        %a= "图片"
+      %span
+        %a= "路线"
+      %span
+        %a= "地图"
+      %span
+        %a= "交通"
+    |
+    %span.area3
+      %span
+        %a= "住宿"
+      %span
+        %a= "美食"
+      %span
+        %a= "购物"
+      %span
+        %a= "活动"
+    |
+    %span.area4
+      %span
+        %a= "文化地理"
+      %span
+        %a= "实用信息"
+      %span
+        %a= "小贴士"
