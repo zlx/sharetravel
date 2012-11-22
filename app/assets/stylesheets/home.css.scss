@@ -54,6 +54,7 @@ a {
 .content {
   width: $main_width;
   min-height: 1000px;
+  border-radius: 8px;
   background-color: #ffffff;
   margin-top: 10px;
 }
@@ -66,6 +67,8 @@ a {
 .cities {
   margin-top: 10px;
   margin-left: 20px;
+  margin-right: 20px;
+  border-radius: 8px;
   background-color: #f6f6f6;
   .name-area {
     padding-top: 10px;
@@ -90,6 +93,7 @@ a {
     }
     .weather {
       padding-top: 20px;
+      padding-right: 20px;
       float: right;
       font-size: 30px;
     }
@@ -98,8 +102,9 @@ a {
     padding-left: 20px;
     font-size: 15px;
     margin-top: 10px;
+    margin-bottom: 10px;
   }
-  .pic-area {
+  .mainpic-area {
     font-size: 40px;
     height: 500px;
     background-color: red;
@@ -117,6 +122,41 @@ a {
     }
     span {
       margin-right: 5px;
+    }
+  }
+  .content-box {
+    #float: left;
+    width: 100%;
+    .main-box {
+      width: 700px;
+      z-index: 1;
+      .name {
+        margin-top: 10px;
+        height: 20px;
+        font-size: 20px;
+        padding-left: 5px;
+        margin-bottom: 10px;
+      }
+      .pic-area {
+        height: 160px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        text-align: center;
+        font-size: 50px;
+      }
+    }
+
+  }
+  aside {
+    float: left;
+    width: 250px;
+    margin-left: -250px;
+    .name, .title {
+      font-size: 14px;
+      margin-bottom: 5px;
+    }
+    .ticket, .open-time, .advices, .position, .address, .phonenumber, best-time {
+      margin-bottom: 10px;
     }
   }
 }
