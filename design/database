@@ -1,0 +1,13 @@
+
+
+encoding: utf-8
+database_name: share_travel-development/test
+
+
+tables:
+
+  cities:     name, description, province_id, country_id
+  provinces:  name, description, :country_id
+  countries:  name, description
+  scene:      name, description, city_id, level
+
