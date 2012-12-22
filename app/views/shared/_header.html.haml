@@ -1,0 +1,12 @@
+%span.user-links
+  = "welcome, zlx_star"
+  |
+  = link_to "个人中心", "#"
+  |
+  = link_to "退出", "#"
+%div#logo
+  = image_tag 'logo.png'
+%div.main-search
+  %form(action="/" method='post')
+    = text_field_tag "query", nil, :class=>"span2 search-query"
+    = submit_tag "Search", :class=>"btn", :style=>"border-radius: 0 14px 14px 0;margin-left:-14px;"

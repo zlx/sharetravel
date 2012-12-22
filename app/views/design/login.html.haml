@@ -1,0 +1,20 @@
+%div.login-area
+  %div.login-field
+    = form_tag '/', :method => 'post' do
+      %div
+        = text_field_tag 'user', nil, :placeholder => '用户名 or 邮箱', :class => 'username'
+      %div
+        = text_field_tag 'pass', nil, :placeholder => '密码', :class => 'password'
+      %div.login-button
+        = check_box_tag '1', :class => 'remeber-password'
+        = label_tag "remember-label", "记住我"
+      = submit_tag '登录'
+  %div.sep
+  %div.other-account-field
+    %p
+      使用其他帐号登录
+    %div.third-part
+      %span.sina
+      %span.qq
+      %span.renren
+

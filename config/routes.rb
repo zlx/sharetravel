@@ -1,7 +1,10 @@
 Sharetravel::Application.routes.draw do
-  get "design/city"
-  get "design/scene"
-
+  resources :design, :only => [] do
+    collection do
+      get :main
+      get :login
+    end
+  end
 
   root :to => 'home#index'
   resource :home do

@@ -1,162 +1,162 @@
-#flashcontent {
-  left: 100px;
-  top: 100px;
-  width: 600px;
-  height: 400px;
-  position: relative;
-}
+/*#flashcontent {*/
+  /*left: 100px;*/
+  /*top: 100px;*/
+  /*width: 600px;*/
+  /*height: 400px;*/
+  /*position: relative;*/
+/*}*/
 
-$main_width: 1020px;
+/*$main_width: 1020px;*/
 
-body {
-  font: 12px/1.5 tahoma,arial,宋体b8b\4f53,sans-serif;
-  width: $main_width;
-  background: url("/assets/bg.png") repeat;
-  margin: {
-    left: auto;
-    right: auto;
-  }
-}
+/*body {*/
+  /*font: 12px/1.5 tahoma,arial,宋体b8b\4f53,sans-serif;*/
+  /*width: $main_width;*/
+  /*background: url("/assets/bg.png") repeat;*/
+  /*margin: {*/
+    /*left: auto;*/
+    /*right: auto;*/
+  /*}*/
+/*}*/
 
-a {
-  color: #007ED9;
-  text-decoration: none;
-  &:hover {
-    text-decoration:underline;
-  }
-}
+/*a {*/
+  /*color: #007ED9;*/
+  /*text-decoration: none;*/
+  /*&:hover {*/
+    /*text-decoration:underline;*/
+  /*}*/
+/*}*/
 
-.top-bar {
-  position: relative;
-  width: 160px;
-  left: $main-width - 170;
-  .welcome, .name, .user-center {
-    margin-right: 5px;
-  }
-}
+/*.top-bar {*/
+  /*position: relative;*/
+  /*width: 160px;*/
+  /*left: $main-width - 170;*/
+  /*.welcome, .name, .user-center {*/
+    /*margin-right: 5px;*/
+  /*}*/
+/*}*/
 
-.header {
-  width: $main_width;
-  height: 42px;
-  .logo a{
-    float: left;
-  }
-  .menu {
-    font-size: 20px;
-    padding-top: 4px;
-    line-height: 40px;
-    .home, .targets, .scenes {
-      margin-left: 20px;
-    }
-  }
-}
+/*.header {*/
+  /*width: $main_width;*/
+  /*height: 42px;*/
+  /*.logo a{*/
+    /*float: left;*/
+  /*}*/
+  /*.menu {*/
+    /*font-size: 20px;*/
+    /*padding-top: 4px;*/
+    /*line-height: 40px;*/
+    /*.home, .targets, .scenes {*/
+      /*margin-left: 20px;*/
+    /*}*/
+  /*}*/
+/*}*/
 
-.content {
-  width: $main_width;
-  min-height: 1000px;
-  border-radius: 8px;
-  background-color: #ffffff;
-  margin-top: 10px;
-}
+/*.content {*/
+  /*width: $main_width;*/
+  /*min-height: 1000px;*/
+  /*border-radius: 8px;*/
+  /*background-color: #ffffff;*/
+  /*margin-top: 10px;*/
+/*}*/
 
-.breadcrumb {
-  padding-top: 10px;
-  padding-left: 10px;
-}
+/*.breadcrumb {*/
+  /*padding-top: 10px;*/
+  /*padding-left: 10px;*/
+/*}*/
 
-.cities {
-  margin-top: 10px;
-  margin-left: 20px;
-  margin-right: 20px;
-  border-radius: 8px;
-  background-color: #f6f6f6;
-  .name-area {
-    padding-top: 10px;
-    padding-left: 20px;
-    width: $main-width - 50px;
-    .name {
-      font-size: 40px;
-      margin-right: 10px;
-    }
-    .star {
-      margin-right: 10px;
-      font-size: 40px;
-      line-height: 30px;
-    }
-    .add-plan, .want-go, .have-go {
-      margin-right: 10px;
-      height: 25px;
-      background-color: #ffda00;
-      &:hover {
-        background-color: #ffffff;
-      }
-    }
-    .weather {
-      padding-top: 20px;
-      padding-right: 20px;
-      float: right;
-      font-size: 30px;
-    }
-  }
-  .desc-area {
-    padding-left: 20px;
-    font-size: 15px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-  }
-  .mainpic-area {
-    font-size: 40px;
-    height: 500px;
-    background-color: red;
-  }
-  nav {
-    margin-top: 5px;
-    background-color: #61bfdf;
-    height: 35px;
-    line-height: 35px;
-    padding-left: 8px;
-    font-size: 15px;
-    .area1, .area2, .area3, .area4 {
-      margin-right: 10px;
-      margin-left: 10px;
-    }
-    span {
-      margin-right: 5px;
-    }
-  }
-  .content-box {
-    #float: left;
-    width: 100%;
-    .main-box {
-      width: 700px;
-      z-index: 1;
-      .name {
-        margin-top: 10px;
-        height: 20px;
-        font-size: 20px;
-        padding-left: 5px;
-        margin-bottom: 10px;
-      }
-      .pic-area {
-        height: 160px;
-        margin-top: 10px;
-        margin-bottom: 10px;
-        text-align: center;
-        font-size: 50px;
-      }
-    }
+/*.cities {*/
+  /*margin-top: 10px;*/
+  /*margin-left: 20px;*/
+  /*margin-right: 20px;*/
+  /*border-radius: 8px;*/
+  /*background-color: #f6f6f6;*/
+  /*.name-area {*/
+    /*padding-top: 10px;*/
+    /*padding-left: 20px;*/
+    /*width: $main-width - 50px;*/
+    /*.name {*/
+      /*font-size: 40px;*/
+      /*margin-right: 10px;*/
+    /*}*/
+    /*.star {*/
+      /*margin-right: 10px;*/
+      /*font-size: 40px;*/
+      /*line-height: 30px;*/
+    /*}*/
+    /*.add-plan, .want-go, .have-go {*/
+      /*margin-right: 10px;*/
+      /*height: 25px;*/
+      /*background-color: #ffda00;*/
+      /*&:hover {*/
+        /*background-color: #ffffff;*/
+      /*}*/
+    /*}*/
+    /*.weather {*/
+      /*padding-top: 20px;*/
+      /*padding-right: 20px;*/
+      /*float: right;*/
+      /*font-size: 30px;*/
+    /*}*/
+  /*}*/
+  /*.desc-area {*/
+    /*padding-left: 20px;*/
+    /*font-size: 15px;*/
+    /*margin-top: 10px;*/
+    /*margin-bottom: 10px;*/
+  /*}*/
+  /*.mainpic-area {*/
+    /*font-size: 40px;*/
+    /*height: 500px;*/
+    /*background-color: red;*/
+  /*}*/
+  /*nav {*/
+    /*margin-top: 5px;*/
+    /*background-color: #61bfdf;*/
+    /*height: 35px;*/
+    /*line-height: 35px;*/
+    /*padding-left: 8px;*/
+    /*font-size: 15px;*/
+    /*.area1, .area2, .area3, .area4 {*/
+      /*margin-right: 10px;*/
+      /*margin-left: 10px;*/
+    /*}*/
+    /*span {*/
+      /*margin-right: 5px;*/
+    /*}*/
+  /*}*/
+  /*.content-box {*/
+    /*#float: left;*/
+    /*width: 100%;*/
+    /*.main-box {*/
+      /*width: 700px;*/
+      /*z-index: 1;*/
+      /*.name {*/
+        /*margin-top: 10px;*/
+        /*height: 20px;*/
+        /*font-size: 20px;*/
+        /*padding-left: 5px;*/
+        /*margin-bottom: 10px;*/
+      /*}*/
+      /*.pic-area {*/
+        /*height: 160px;*/
+        /*margin-top: 10px;*/
+        /*margin-bottom: 10px;*/
+        /*text-align: center;*/
+        /*font-size: 50px;*/
+      /*}*/
+    /*}*/
 
-  }
-  aside {
-    float: left;
-    width: 250px;
-    margin-left: -250px;
-    .name, .title {
-      font-size: 14px;
-      margin-bottom: 5px;
-    }
-    .ticket, .open-time, .advices, .position, .address, .phonenumber, best-time {
-      margin-bottom: 10px;
-    }
-  }
-}
+  /*}*/
+  /*aside {*/
+    /*float: left;*/
+    /*width: 250px;*/
+    /*margin-left: -250px;*/
+    /*.name, .title {*/
+      /*font-size: 14px;*/
+      /*margin-bottom: 5px;*/
+    /*}*/
+    /*.ticket, .open-time, .advices, .position, .address, .phonenumber, best-time {*/
+      /*margin-bottom: 10px;*/
+    /*}*/
+  /*}*/
+/*}*/

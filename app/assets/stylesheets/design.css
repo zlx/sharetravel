@@ -1,0 +1,236 @@
+body {
+  font: 12px/1.5 tahoma,arial,宋体b8b\4f53,sans-serif;
+  background: url("/assets/bg.png") repeat;
+}
+
+a {
+  color: #000000;
+}
+
+a:hover {
+  color: #679b00;
+  text-decoration: none;
+}
+
+section#page {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+/* css for header*/
+header#header {
+  height: 80px;
+}
+
+header .user-links {
+  margin-top: 18px;
+  margin-right: 18px;
+  float: right;
+}
+
+header #logo {
+  padding-top: 44px;
+  padding-left: 18px;
+}
+
+header .main-search {
+  margin-top: -30px;
+  margin-right: 18px;
+  float: right;
+}
+/* css for header*/
+
+/* css for main*/
+section#content {
+  min-height: 200px;
+}
+
+.selector-area {
+  font-size: 14px;
+  font-weight: 600px;
+  margin-top: 9px;
+  /*background-color: white;*/
+  background: url("/assets/noisy-bg-ffffff.png") repeat;
+  border-radius: 5px;
+}
+
+.selector-area .selector {
+  padding: 18px;
+}
+
+.selector-area .cities {
+  margin-top: 9px;
+  margin-bottom: 9px;
+}
+
+.selector-area .sep {
+  padding: 0 6px;
+}
+
+.topic-area {
+  margin-top: 18px;
+  padding-left: 18px;
+  padding-top: 18px;
+  background: url("/assets/noisy-bg-ffffff.png") repeat;
+  border-radius: 5px;
+}
+
+.topic-area .nav-node {
+  font-size: 16px;
+  margin-bottom: 9px;
+  height: 24px;
+}
+
+.topic-area .nav-node span {
+  margin-right: 9px;
+  cursor: pointer;
+  border-bottom: 2px solid #000000;
+}
+
+.topic-area .nav-node span:hover {
+  margin-right: 9px;
+  cursor: pointer;
+  border-bottom: 2px solid #679B00;
+}
+
+.topic-area .topics {
+  font-size: 14px;
+}
+
+.topic-area .topic {
+  height: 54px;
+}
+
+.topic-area .topic .user-area {
+  float: left;
+  width: 36px;
+}
+
+.topic-area .topic .topic-content {
+  font-size: 12px;
+  margin-left: 45px;
+}
+
+.topic-summary .city, .topic-summary .fee, .topic-summary .time, .topic-summary .type {
+  margin-right: 9px;
+}
+/* css for main*/
+
+/* css for login*/
+.login-area {
+  margin: 90px 115px;
+  height: 360px;
+  position: relative;
+  border-radius: 5px;
+  background: url("/assets/noisy-bg.png") repeat;
+}
+
+.login-area .login-field {
+  width: 330px;
+  position: absolute;
+  margin-top: 58px;
+  margin-left: 18px;
+}
+
+.login-area .username, .login-area .password {
+  height: 36px;
+  width: 280px;
+  margin-bottom: 18px;
+}
+
+.login-area .login-button {
+  height: 36px;
+  width: 280px;
+  padding-left: 18px;
+  padding-top: 9px;
+}
+
+.login-area [type='checkbox'] {
+  width: 18px;
+  height: 18px;
+}
+
+.login-area [for='remember-label'] {
+  font-size: 18px;
+  height: 36px;
+  width: 72px;
+  margin-top: -18px;
+  margin-left: 22px;
+}
+
+.login-area input[type='submit'] {
+  height: 36px;
+  width: 140px;
+  float: right;
+  margin-top: -41px;
+  margin-right: 37px;
+  background-color: #679b00;
+  border-radius: 5px;
+}
+
+.login-area .sep {
+  width: 3px;
+  height: 320px;
+  position: absolute;
+  left: 334px;
+  top: 15px;
+  background: url("/assets/noisy-sep-000000.png") repeat;
+}
+
+.login-area .other-account-field p {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 18px;
+}
+
+.login-area .third-part {
+  height: 32px;
+}
+
+.login-area .sina {
+  height: 32px;
+  width: 32px;
+  display: inline-block;
+  background: url("/assets/social_icon.png") 0px 0px no-repeat;
+  margin-right: 5px;
+}
+
+.login-area .qq {
+  height: 32px;
+  width: 32px;
+  display: inline-block;
+  background: url("/assets/social_icon.png") 0px -32px no-repeat;
+  margin-right: 5px;
+}
+
+.login-area .renren {
+  height: 32px;
+  width: 32px;
+  display: inline-block;
+  background: url("/assets/social_icon.png") 0px -64px no-repeat;
+  margin-right: 5px;
+}
+
+.login-area .other-account-field {
+  width: 330px;
+  position: absolute;
+  left: 340px;
+  text-align: center;
+}
+
+/* css for login*/
+
+/* css for footer*/
+footer {
+  height: 54px;
+}
+
+footer .common-information {
+  text-align: center;
+  font: 16px;
+  padding: 18px 0;
+}
+/* css for footer*/
+footer {
