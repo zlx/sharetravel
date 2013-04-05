@@ -11,47 +11,25 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20121113131636) do
+ActiveRecord::Schema.define(:version => 20130405160903) do
 
-  create_table "cities", :force => true do |t|
-    t.string   "name"
-    t.string   "description"
-    t.integer  "province_id"
-    t.integer  "country_id"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+  create_table "trips", :force => true do |t|
+    t.string   "title"
+    t.string   "summary"
+    t.text     "content"
+    t.integer  "author"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
   end
 
-  add_index "cities", ["country_id"], :name => "index_cities_on_country_id"
-  add_index "cities", ["province_id"], :name => "index_cities_on_province_id"
-
-  create_table "countries", :force => true do |t|
+  create_table "users", :force => true do |t|
     t.string   "name"
-    t.string   "description"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
+    t.string   "email"
+    t.string   "image"
+    t.string   "password"
+    t.string   "pasword_confirmation"
+    t.datetime "created_at",           :null => false
+    t.datetime "updated_at",           :null => false
   end
-
-  create_table "provinces", :force => true do |t|
-    t.string   "name"
-    t.string   "description"
-    t.integer  "country_id"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
-  end
-
-  add_index "provinces", ["country_id"], :name => "index_provinces_on_country_id"
-
-  create_table "scenes", :force => true do |t|
-    t.string   "name"
-    t.string   "description"
-    t.integer  "level"
-    t.integer  "city_id"
-    t.datetime "created_at",  :null => false
-    t.datetime "updated_at",  :null => false
-  end
-
-  add_index "scenes", ["city_id"], :name => "index_scenes_on_city_id"
-  add_index "scenes", ["level"], :name => "index_scenes_on_level"
 
 end

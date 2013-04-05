@@ -1,4 +1,4 @@
-source 'https://rubygems.org'
+source 'http://ruby.taobao.org'
 
 gem 'rails', '3.2.8'
 
@@ -42,3 +42,4 @@ group :development do
   gem 'guard-livereload'
   gem 'rb-inotify', :require => false
 end
+gem 'rb-fsevent', '~> 0.9.1'

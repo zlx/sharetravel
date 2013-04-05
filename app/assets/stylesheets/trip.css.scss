@@ -1,0 +1,36 @@
+// Place all the styles related to the trip controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+.header {
+  margin-top: 10px;
+}
+
+body {
+  width: 960px;
+  margin: auto auto;
+}
+
+.content {
+  border: 1px solid Green;
+  margin-top: 10px;
+}
+
+.main-container {
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+.column1, .column2, .column3, .column4 {
+  float: left;
+  width: 230px;
+}
+
+.grid {
+ border: 1px solid Red;
+ margin-top: 10px;
+}
+
+.column2, .column3, .column4 {
+  margin-left: 10px;
+}
