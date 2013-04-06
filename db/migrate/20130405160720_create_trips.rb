@@ -4,7 +4,7 @@ class CreateTrips < ActiveRecord::Migration
       t.string :title
       t.string :summary
       t.text :content
-      t.integer :author
+      t.integer :author_id
 
       t.timestamps
     end

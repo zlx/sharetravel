@@ -1,5 +1,6 @@
 class TripsController < ApplicationController
   def index
+    @trips = Trip.limit(12)
   end
 
   def show

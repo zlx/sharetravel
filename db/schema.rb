@@ -17,7 +17,7 @@ ActiveRecord::Schema.define(:version => 20130405160903) do
     t.string   "title"
     t.string   "summary"
     t.text     "content"
-    t.integer  "author"
+    t.integer  "author_id"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false
   end
