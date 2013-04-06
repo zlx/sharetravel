@@ -27,8 +27,11 @@ body {
 }
 
 .grid {
- border: 1px solid Red;
  margin-top: 10px;
+ padding-top: 35px;
+ padding-bottom: 15px;
+ padding-left: 25px;
+ background-image: url("note.png");
 }
 
 .column2, .column3, .column4 {
